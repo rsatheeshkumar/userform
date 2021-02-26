@@ -60,10 +60,10 @@ const FormPersonnelDetails = ({ values, nextStep, prevStep, handleChange }) => {
           </label>
           <input
             type="text"
-            name="Bio"
+            name="bio"
             value={values.bio}
             className="form-control ml-2 w-75"
-            placeholder="bio"
+            placeholder="Bio"
             onChange={handleChange}
           />
         </div>
